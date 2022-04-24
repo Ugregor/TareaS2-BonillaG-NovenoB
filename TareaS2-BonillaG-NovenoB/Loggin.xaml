@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TareaS2_BonillaG_NovenoB.Loggin">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#000" Margin="10" Padding="5" CornerRadius="15">
+                <Label Text="Proyecto de Desarrollo de Sistemas Moviles" TextColor="#fff" FontSize="20" HorizontalTextAlignment="Center"/>
+            </Frame>
+
+            <Entry x:Name="txtUsuario" Placeholder="Usurario..." Margin="40, 5"/>
+            <Entry x:Name="txtPassword" Placeholder="Contraseña..." Margin="40, 5" IsPassword="True"/>
+            <Button x:Name="btnLogin" Text="Iniciar Sesion" Clicked="btnLogin_Clicked" FontSize="15" Margin="70, 10"/>
+
+            <Image Source="logoUISRAEL.png"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
